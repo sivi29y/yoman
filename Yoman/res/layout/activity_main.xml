@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" >
+    
+ <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+<RelativeLayout 
+    android:id="@+id/widget34"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+        
+
+    <LinearLayout
+        android:id="@+id/widget38"
+        android:layout_width="wrap_content"
+        android:layout_height="425dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.5"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_gravity="center|bottom|center_horizontal"
+                android:text="Monday" />
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/image023" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/FrameLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_gravity="center|bottom|center_horizontal"
+                android:text="Wednsday" />
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/image023" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/FrameLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_gravity="center|bottom|center_horizontal"
+                android:text="Friday" />
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/image023" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget37"
+        android:layout_width="wrap_content"
+        android:layout_height="425dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.5"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/FrameLayout08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" >
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_gravity="center|bottom|center_horizontal"
+                android:text="Sunday" />
+
+            <ImageView
+                android:id="@+id/ImageView08"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/image023" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/FrameLayout07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" >
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_gravity="center|bottom|center_horizontal"
+                android:text="Tusday" />
+
+            <ImageView
+                android:id="@+id/ImageView07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/image023" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/FrameLayout06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" >
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_gravity="center|bottom|center_horizontal"
+                android:text="Thursday" />
+
+            <ImageView
+                android:id="@+id/ImageView06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/image023" />
+        </FrameLayout>
+    </LinearLayout>
+    
+    <ImageView
+                android:id="@+id/widget41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/widget38"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image019" >
+
+    </ImageView>
+    
+  
+</RelativeLayout>
+
+ </ScrollView>
+ 
+   
+</RelativeLayout>
